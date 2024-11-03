@@ -1,0 +1,9 @@
+<button routerLink="/create">Add New Task</button>
+<div *ngFor="let task of tasks">
+    <h3>{{ task.title }}</h3>
+    <p>{{ task.description }}</p>
+    <p>Status: {{ task.status }}</p>
+    <button (click)="deleteTask(task._id)">Delete</button>
+    <button [routerLink]="['/update', task._id,task]">Update</button>
+  </div>
+  

@@ -1,0 +1,68 @@
+/* src/app/app.component.css */
+
+/* Authentication Container */
+.auth-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form Title */
+  .auth-container h2 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Labels */
+  .auth-form label {
+    display: block;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  /* Form Inputs */
+  .auth-form input[type="text"],
+  .auth-form input[type="email"],
+  .auth-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .auth-form input[type="text"]:focus,
+  .auth-form input[type="email"]:focus,
+  .auth-form input[type="password"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .auth-form .btn {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .auth-form .btn:hover {
+    background-color: #45a049;
+  }
+  

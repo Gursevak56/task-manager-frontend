@@ -1,0 +1,13 @@
+<form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+    <label for="title">Title</label>
+    <input id="title" formControlName="title" type="text">
+    <label for="description">Description</label>
+    <textarea id="description" formControlName="description"></textarea>
+    <label for="status">Status</label>
+    <select id="status" formControlName="status">
+      <option value="pending">Pending</option>
+      <option value="completed">Completed</option>
+    </select>
+    <button type="submit">Create Task</button>
+  </form>
+  
